@@ -101,11 +101,14 @@ oil-well-location-selection
 │
 ├── notebooks
 │   └── oil_well_analysis.ipynb
+├── utils
+│   └── oil_well_analysis.html
 │
 ├── src
 │   ├── preprocessing.py
 │   ├── model.py
 │   └── bootstrap.py
+│    └── pipeline.py
 │
 ├── images
 │   ├── profit_distribution.png
@@ -132,6 +135,7 @@ Python modules with reusable code:
 * `preprocessing.py` — data preparation
 * `model.py` — machine learning model training
 * `bootstrap.py` — profit simulation and risk analysis
+* `pipeline.py` — starting script
 
 **images/**
 Visualizations used in the project documentation.
